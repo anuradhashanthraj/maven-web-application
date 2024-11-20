@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.212.202.189:9000</sonar.host.url>
+		<sonar.host.url>http://3.1.220.10:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>anu@123</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,14 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Maven-Web-Application-Release</name>
-	      <url>http://13.233.174.62:8081/repository/Task-Web-Application-Release/</url>
+	      <url>http://18.140.60.241:8081/repository/clahn-project-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Maven-Web-Snapshot-Repository</name>
-	      <url>http://13.233.174.62:8081/repository/Task-web-Application-Snapshot/</url>
+	      <url>http://18.140.60.241:8081/repository/clahan-project-snapshot/
+	      </url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
