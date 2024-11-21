@@ -3,7 +3,7 @@
         <server>
             <id>http://3.1.220.10:9000/</id>
             <username>admin</username>
-            <password>Anu@1234</password>
+            <password>anu@123</password>
         </server>
     </servers>
 </settings>
