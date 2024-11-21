@@ -104,8 +104,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Maven-Web-Snapshot-Repository</name>
-	      <url>http://18.140.60.241:8081/repository/clahan-project-snapshot/
-	      </url>
+	      <url>http://18.140.60.241:8081/repository/clahan-project-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

@@ -1,9 +1,7 @@
-<settings>
-    <servers>
-        <server>
-            <id>http://3.1.220.10:9000/</id>
-            <username>admin</username>
-            <password>anu@123</password>
-        </server>
-    </servers>
-</settings>
+<servers>
+    <server>
+        <id>clahan-project-snapshot</id>  <!-- The ID should match the repository ID from pom.xml -->
+        <username>admin</username>
+        <password>Anu@1234</password>
+    </server>
+</servers>
