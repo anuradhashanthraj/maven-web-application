@@ -95,17 +95,21 @@
 	
 	<distributionManagement>
 		
-           <repository>
-	     <id>nexus</id>
-             <id>Clahan-Maven-web-application-release</id>  <!-- This ID should match the one in settings.xml -->
-             <url>http://18.140.60.241:8081/repository/Clahan-Maven-web-application-release/</url>
-           </repository>
+           <repositories>
+    <repository>
+        <id>Clahan-Maven-web-application-release</id> <!-- Unique ID -->
+        <url>http://18.140.60.241:8081/repository/Clahan-Maven-web-application-release/</url>
+    </repository>
+</repositories>
 
-           <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Clahan-Maven-web-application</name>
-	      <urlhttp://18.140.60.241:8081/repository/Clahan-Maven-web-application/</url>
-	    </snapshotRepository>
+<snapshotRepositories>
+    <snapshotRepository>
+        <id>Clahan-Maven-web-application</id> <!-- Unique ID -->
+        <name>Clahan-Maven-web-application</name>
+        <url>http://18.140.60.241:8081/repository/Clahan-Maven-web-application/</url> <!-- Fixed URL formatting -->
+    </snapshotRepository>
+</snapshotRepositories>
+
 	    
 	</distributionManagement>
 	
