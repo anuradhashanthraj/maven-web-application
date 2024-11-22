@@ -93,26 +93,37 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
-		
-           <repositories>
-    <repository>
-        <id>Clahan-Maven-web-application-release</id> <!-- Unique ID -->
-        <url>http://18.140.60.241:8081/repository/Clahan-Maven-web-application-release/</url>
-    </repository>
-</repositories>
+	<project>
+    ...
+    <repositories>
+        <repository>
+            <id>Clahan-Maven-web-application-release</id>
+            <url>http://18.140.60.241:8081/repository/Clahan-Maven-web-application-release/</url>
+        </repository>
+    </repositories>
 
-<snapshotRepositories>
-    <snapshotRepository>
-        <id>Clahan-Maven-web-application</id> <!-- Unique ID -->
-        <name>Clahan-Maven-web-application</name>
-        <url>http://18.140.60.241:8081/repository/Clahan-Maven-web-application/</url> <!-- Fixed URL formatting -->
-    </snapshotRepository>
-</snapshotRepositories>
+    <distributionManagement>
+        <repository>
+            <id>Clahan-Maven-web-application-release</id>
+            <url>http://18.140.60.241:8081/repository/Clahan-Maven-web-application-release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>Clahan-Maven-web-application</id>
+            <url>http://18.140.60.241:8081/repository/Clahan-Maven-web-application/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
-	    
-	</distributionManagement>
-	
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- Add other dependencies here -->
+    </dependencies>
+</project>
+
 	<build>
 		<finalName>maven-web-application</finalName>
 		
